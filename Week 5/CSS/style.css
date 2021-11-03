@@ -1,0 +1,64 @@
+
+h3{
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1bb5d2;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+
+body{
+  --stripe: #cfd8dc;
+  --bg: #e1e1e1;
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
+
+p{
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  border-radius: 100px;
+  width: 100%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h4{
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: lightgrey
+}
