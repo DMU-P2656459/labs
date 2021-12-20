@@ -1,0 +1,175 @@
+body{
+	background-color: #0e6cc5;  /* Background colour- blue colourway to fit with the ocean and surfing theme of the movie */
+}
+
+h1{
+  text-align: center;  /* Aligning the title in the centre to appear more professional and fit the conventions of a website */
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-transform: uppercase; /* Transforms title so it is all uppercase to present importance and interest the user */
+  color: white; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+  font-weight: bold; /* Bold font weight to add to the sense of importance the title holds */
+}
+
+.boxed {
+  border: 1px solid #0af ; /* Border around the title to bring attention towards it and also show utilisation of CSS */
+}
+
+.button {
+  font-family: 'Raleway', Arial, sans-serif; /* Font style which is the same as the title presenting consistency also is easy to read which allows the viewer to take in information within the website */
+  text-align: center; /* Aligning menu to the centre so it looks appealing and professional for the user */
+  text-transform: uppercase; /* Transforms text so it is uppercase to add to the visual appeal of the menu */
+  font-weight: bold; /* Bold font weight to further the visual appeal of the menu */
+  display: flex; /* Use of flex */
+  flex-direction: row; /* Flexing menu into a row for visual appeal and ease of use */
+  justify-content:center; /* Further centring the menu so it looks professional */
+}
+
+.button * {
+  box-sizing: border-box; /* border-box tells the browser to account for any border and padding in the values you specify */
+  -webkit-transition: all 0.35s ease; /* This decides the time frame in which the transition/animation takes place */
+  transition: all 0.35s ease; /* This decides the time frame in which the transition/animation takes place */
+}
+
+.button li {
+  display: inline-block; /* Used to display an element as an inline-level block container (commonly seen within menus) */
+  list-style: outside none none; /* Means that the bullet points not be within the list item */
+  margin: 0 1.5em; /* Margain positioning/settings of the menu */
+  overflow: hidden; /* This prevents scrollbars from showing up */
+}
+
+.button a {
+  padding: 0.3em 0; /* Padding of the menu */
+  color: white; /* Colour of the menu text before hovering- contrasts the background colour and is consistent with the rest of the text on this page */
+  position: relative; /* Position settings menu */
+  display: inline-block; /* Used to display an element as an inline-level block container (commonly seen within menus) */
+  letter-spacing: 1px; /* Letter spacing of the text within the menu */
+  margin: 0; /* Margin settings */
+  text-decoration: none; /* Allows for no unneeded text decoration to be present */
+}
+
+.button a:before,
+.button a:after {
+  position: absolute; /* Position settings- takes the document out of the document flow etc */
+  -webkit-transition: all 0.35s ease; /* This decides the time frame in which the transition/animation takes place */
+  transition: all 0.35s ease; /* This decides the time frame in which the transition/animation takes place */
+}
+
+.button a:before {
+  top: 100%; /* Allows the lines to be in the correct position before the user hovers */
+  display: block; /* Element is displayed as a block */
+  height: 3px; /* Height of the lines seen after hoving over the menu */
+  width: 100%; /* Width of the lines */
+  content: ""; /* Disallows for unnecessary content */
+  background-color: #0af; /* Blue colour seen after hovering over menu fits in with ocean theme and presents consistency throughout the website */
+}
+
+.button a:after {
+  padding: 0.3em 0; /* Padding of the lines after hovering */
+  position: absolute; /* Position settings of the lines after hovering */
+  top: 100%; /* Allows the lines to be in the correct position after the user hovers */
+  left: 0; /* Causes the text to be visible when hovering (doesn't move it horizontally) */
+  content: attr(data-hover); /* Assigns a hover data attribute to the website allowing for the user to hover over the website and an animation to occur */
+  color: #0af; /* Colour of the menu buttons change to present difference and fit with the blue colourway seen in the website */
+}
+
+.button li:hover a,
+.button .current a {
+  transform: translateY(-100%); /* Moves/transforms elements when hovering over and allows to animation along the Y axis */
+}
+
+video {
+	display: block; /* Allowing video to be centred so it is visual appealing */
+	margin: 0 auto; /* Places video in centre of the page */
+  border-radius: 8px; /* Adds curved border on video adding a sense of originality */
+}
+
+p{
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-align:center; /* Aligns the text to the centre of the page which is visually appealing for the user */
+  color: white; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+.parabox{
+  width: 950px; /* Width of the box */
+  height: 100px; /* Height of the box */
+  margin: auto; /* Aligns the text and box to the centre of the page which is visually appealing for the user */
+  text-align:justify; /* Allows the text to align within the box/border */
+  border: 1px solid #0af ; /* Thin border and blue colourway to fit with the rest of the website */
+}
+
+h2{
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-align:center; /* Aligns the text to the centre of the page which is visually appealing for the user */
+  padding-top: 20px; /* Top padding which moves the text down the page */
+  color: white; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+img{
+  width: 17%; /* Overall width of image */
+  height: auto; /* Height follows the width so the ratio of image does not change from the original */
+  border-radius: 8px; /* Creates curved borders presenting something different than just standard images */
+  margin-top: 5px; /* Moves image down */
+  margin-left: 30px; /* Moves image right */
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF; /* Stylisation of audio player- changing to a blue colourway fit with the blue theme present within the website */
+}
+
+h3{
+  text-align: left; /* Aligns the text left so that it is above the image */
+  margin-left: 90px; /* Moves the text to right so it is directly above the image below */
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  color: white; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+.container{
+  display: flex; /* Flex box container allowing for layout to to easily manipulated and text/audio to be flexed to image (as shown in the brief) */
+}
+
+.two{
+  text-align: left; /* Aligns the text left to that is sticks to the image and follwos the same layout shown on the brief */
+  margin-left: 15px; /* Moves text across to the right, done as a stylistic choice so the text doesnt touch the edge of the border */
+  margin-top: 5px; /* Moves text down, done as a stylistic choice so the text doesnt touch the edge of the border */
+  display: flex; /* Flexes the text to the image, manipulating the layout to fit the brief */
+}
+
+.textborder{
+  border: 1px solid #0af ; /* Thin blue border for text to make website appear more interesting (also stays consistent with other border seen within the website) */
+}
+
+.wavesimg{
+  position: absolute; /* Position of the waves image */
+  right: 10px; /* Positioning of the waves on the page to appeal to the user */
+  margin-top: -562px; /* Moving the image of the waves so they are inbetween the synopsis and the video, acting as a border */
+  width: 1500px; /* Width of the waves to fill the width of the page */
+  height: 40px; /* Height of the waves which are the same as the waves on the other page presenting consistency */
+}
+
+.wavesimg3{
+  width: 1473px; /* Width of the waves to fill the width of the page */
+  height: 40px; /* Height of the waves which are the same as the waves on the other page presenting consistency */
+}
+
+footer{
+  text-align: center; /* Aligns the footer to the center of the page */
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-transform: uppercase; /* Transforms text to stand out further */
+  color: white; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+  font-weight: bold; /* Sets the font weight to bold which stands out the user */
+	background-color: white; /* Contrasts the blue background of the website allowing the footer to stand out futher */
+}
+
+.audiointerview{
+  margin-left: 35%; /* Left margain for the audio player to they are centred with the text which is visually appealing */
+}
+
+.finalimage{
+	display: block; /* Display setting to centre the image */
+  margin-left: auto; /* Display setting to centre the image */
+  margin-right: auto; /* Display setting to centre the image */
+	width: 910px; /* Width of the image which correlates with the width of the video above it */
+	height: 150px; /* Height of the image */
+	-webkit-filter: blur(4px); /* Blurring of the image acting as a stylistic choice and preseting further skill sets within CSS */
+  filter: blur(4px); /* Blurring of the image acting as a stylistic choice and preseting further skill sets within CSS */
+}
