@@ -1,0 +1,295 @@
+body {
+    background-image: linear-gradient(white,lightgrey); /* Gradient background which was decided upon during pre production when asking peers */
+        }
+
+.guitarlogo{
+  height: 150px; /* Height of my logo featuring within the top of the webpage */
+  width: 150px; /* Width of my logo featuring within the top of the webpage */
+  display: block; /* Display type used for the logo */
+  margin-left: auto; /* Centers the image */
+  margin-right: auto; /* Centers the image */
+}
+
+.socialmedia{
+  width: 50%; /* Width percentage of the social media icons */
+  display: block; /* Display type used for the social media icons */
+  margin-left: auto; /* Centers the image */
+  margin-right: auto; /* Centers the image */
+  filter: grayscale(100%); /* Added a black and white filter so it fits with the colour theme seen throughout the website */
+}
+
+h1{
+  text-align: center;  /* Aligning the title in the centre to appear more professional and fit the conventions of a website */
+  font-family: 'Raleway', Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-transform: uppercase; /* Transforms title so it is all uppercase to present importance and interest the user */
+  color: black; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+  font-weight: bold; /* Bold font weight to add to the sense of importance the title holds */
+}
+
+.topnav {
+  position: relative;
+  background-color: #333; /* Choice of background colour for the menu, fits nicely with the gradient background */
+  overflow: hidden; /* So no bullet points are present within the menu */
+  display: flex; /* Use of flex */
+  flex-direction: row; /* Flexing menu into a row for visual appeal and ease of use */
+  justify-content:center; /* Further centring the menu so it looks professional */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: none; /* Float style of the text wihtin the menu */
+  position: relative; /* Position of the menu text */
+  top: 0; /* Gives the browser a new bounding block on the top */
+  left: 0; /* Gives the browser a new bounding block on the left */
+  transform: none; /* Makes sure the text is not rotated or scewed */
+  color: #f2f2f2; /* Colour of the text seen within the menu */
+  text-align: center; /* Aligns the menu text to the center to look professional */
+  padding: 10px 12px; /* Guves the text in the menu padding so it all fits onto one line/looks appealing */
+  text-decoration: none; /* Gets rid of any text decoration- bullet points etc */
+  font-size: 13px; /* Font size of the menu */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* n */
+}
+
+.topnav a:hover { /* This changes the colour of links on hover */
+  background-color: #ddd; /* Background colour when hoverinh */
+  color: black; /* Colour of text when hovering */
+}
+
+.decorated{
+     overflow: hidden; /* Hidden overflow style that is assigned to the headings */
+     text-align: center; /* Aligns the heading to the center */
+     text-transform: uppercase; /* Changes the text to uppercase- presents professionalism */
+     font-size: 20px; /* Size chosen for the headlines */
+ }
+.decorated > span{
+    position: relative; /* Assigns relative positioning to the heading */
+    display: inline-block; /* Displays the element as an inline block (allowing for a horizontal line) */
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute; /* Positioning of the blue horizontal line seen each side of the headings */
+    top: 50%;
+    border-bottom: 2px solid; /* Determines the size of the horizontal line */
+    width: 591px; /* Width of the lines */
+    margin: 0 20px; /* Margin so the lines don't reach the very end of the screen */
+    color: blue; /* Applies a blue colourway of the horizontal lines */
+}
+.decorated > span:before{
+    right: 100%; /* Right side horizontal line */
+}
+.decorated > span:after{
+    left: 100%; /* Left side horizontal line */
+}
+
+.decorated2{
+     overflow: hidden; /* Hidden overflow style that is assigned to the headings */
+     text-align: center; /* Aligns the heading to the center */
+     text-transform: uppercase; /* Changes the text to uppercase- presents professionalism */
+     font-size: 20px; /* Size chosen for the headlines */
+ }
+.decorated2 > span{
+    position: relative; /* Assigns relative positioning to the heading */
+    display: inline-block; /* Displays the element as an inline block (allowing for a horizontal line) */
+}
+.decorated2 > span:before, .decorated2 > span:after{
+    content: '';
+    position: absolute; /* Positioning of the blue horizontal line seen each side of the headings */
+    top: 50%;
+    border-bottom: 2px solid; /* Determines the size of the horizontal line */
+    width: 591px; /* Width of the lines */
+    margin: 0 20px; /* Margin so the lines don't reach the very end of the screen */
+    color: blue; /* Applies a blue colourway of the horizontal lines */
+}
+.decorated2 > span:before{
+    right: 100%; /* Right side horizontal line */
+}
+.decorated2 > span:after{
+    left: 100%; /* Left side horizontal line */
+}
+
+.decorated3{
+     overflow: hidden; /* Hidden overflow style that is assigned to the headings */
+     text-align: center; /* Aligns the heading to the center */
+     text-transform: uppercase; /* Changes the text to uppercase- presents professionalism */
+     font-size: 20px; /* Size chosen for the headlines */
+ }
+.decorated3 > span{
+    position: relative; /* Assigns relative positioning to the heading */
+    display: inline-block; /* Displays the element as an inline block (allowing for a horizontal line) */
+}
+.decorated3 > span:before, .decorated3 > span:after{
+    content: '';
+    position: absolute; /* Positioning of the blue horizontal line seen each side of the headings */
+    top: 50%;
+    border-bottom: 2px solid; /* Determines the size of the horizontal line */
+    width: 591px; /* Width of the lines */
+    margin: 0 20px; /* Margin so the lines don't reach the very end of the screen */
+    color: blue; /* Applies a blue colourway of the horizontal lines */
+}
+.decorated3 > span:before{
+    right: 100%; /* Right side horizontal line */
+}
+.decorated3 > span:after{
+    left: 100%; /* Left side horizontal line */
+}
+
+.aboutus{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-align:center; /* Aligns the text to the centre of the page which is visually appealing for the user */
+  color: black; /* Black colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+
+h2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-align:center; /* Aligns the text to the centre of the page which is visually appealing for the user */
+  padding-top: 20px; /* Top padding which moves the text down the page */
+  color: black; /* Black colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+h3{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  text-align:center; /* Aligns the text to the centre of the page which is visually appealing for the user */
+  padding-top: 20px; /* Top padding which moves the text down the page */
+  color: black; /* Black colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+}
+
+.maintext{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  color: black; /* Black colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+  font-size: 13px; /* Font size for this piece fo text */
+}
+
+.maintextinfo{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font choice- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+  color: black; /* White colour of the text contrasts the background colour and is consistent with the rest of the text on this page */
+  font-size: 14px; /* Font size for this piece of text */
+  text-align: center; /* Aligns the text to the center of the webpage */
+}
+
+.leftimages{
+  float:left; /* Places all images in this css class on the left of the screen */
+  width: 40%; /* Width percentage of the images on the left of the screen */
+  margin: 5px; /* Provides space between the image and text that is next to it so the website looks more appealing */
+}
+
+.rightimages{
+  float:right; /* Places all images in this css class on the right of the screen */
+  width: 40%; /* Width percentage of the images on the right of the screen */
+  margin: 5px; /* Provides space between the image and text that is next to it so the website looks more appealing */
+}
+
+video {
+	display: block; /* Allowing video to be centred so it is visual appealing */
+	margin: 0 auto; /* Places video in centre of the page */
+  border-radius: 8px; /* Adds curved border on video adding a sense of originality */
+}
+
+.fendernews{
+  display: block; /* Display style of the image */
+  margin-left: auto; /* Centers the image */
+  margin-right: auto; /* Centers the image */
+  width: 80%; /* Width of the page the image will take up */
+}
+
+form{
+  max-width: 550px; /* Max width of the contact form */
+  width: 90%; /* Width of the contact form */
+  background: white; /* Background colour of the contact form */
+  margin: 10vh auto 0 auto; /* The margins of the contact form (also centers the form) */
+  padding: 15px; /* Allows for padding in termds of the contact form to appear more spaced out and professional */
+  border-radius: 3px; /* Radius of the contact form border */
+  box-sizing: border-box; /* Box sizing set to border box this tells the browser to account for any border and padding */
+  position: sticky; /* Position style of the contact form */
+}
+
+.contacttext{
+  margin: 0; /* Causes no margin in terms of the contact form text */
+  text-align: center; /* Aligns the text to the centre of the page */
+}
+
+
+input {
+  width: 100%; /* Width of text area within the contact form */
+  padding: 10px; /* Padding for the text within the contact form- allows for space within the website and looks more appealing */
+  box-sizing: border-box; /* n */
+  outline: none; /* Disallows outlining */
+  resize: none; /* Stops resizing of text area */
+  border: none; /* Stops bordering of text */
+  border-bottom: 1px solid #D3D3D3; /* This creates a 1px line underneath each text area to present seperation */
+}
+
+textarea {
+  width: 100%; /* Width of text area within the contact form */
+  padding: 10px; /* Padding for the text within the contact form- allows for space within the website and looks more appealing */
+  box-sizing: border-box; /* n */
+  outline: none; /* Disallows outlining */
+  resize: none; /* Stops resizing of text area */
+  border: none; /* Stops bordering of text */
+  border-bottom: 1px solid #D3D3D3; /* This creates a 1px line underneath each text area to present seperation */
+}
+
+input type="text"]:focus, textarea:focus {
+  border-bottom: 1px solid rgba(255, 0, 106); /* This creates a typable 1px line underneath each text area for users to type */
+}
+
+.center{
+  text-align: center; /* Aligns the text to the centre */
+}
+
+input["type=submit"] {
+  margin-top: 30px; /* Allows for a 30px margin for the 'send message' button seen on the contact form */
+  width: 90%; /* Width of the button seen */
+  max-width: 200px; /* Max width of the button seen- takes into account different browsers etc */
+  background: linear-gradient(to right, rgba(255, 0, 106), rgba(255, 67, 61)); /* n */
+  color: white; /* Colour of the button seen */
+  font-size: 17px; /* Font size for this piece of text */
+  cursor: pointer; /* Cursor style */
+  border-radius: 3px; /* Border radius of the 'send message' button */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font used within this section- consistent throughout and is easy to read which allows the viewer to take in information within the website */
+}
+
+.error{
+  color: red; /* Colour that appears when an error is found */
+}
+
+.error-border{
+  border-bottom: 1px solid red; /* Changes the colour of the line seen underneath each section when an error is found */
+}
+
+#success{
+  color: #28A745 /* Colour that appears when successful */
+}
+
+.audiointerview{
+  width: 70%; /* Width of the audio players */
+  display: block; /* Display styler of the audio players- so they can be centered */
+  margin: auto; /* Centers the audio interviews- looks more professional */
+}
+
+.question{
+  font-weight: 600; /* Font weight of the questions seen */
+}
+.answers {
+    margin-bottom: 20px; /* Creates a lower margin under the answers section */
+}
+#submit{
+  font-family: sans-serif;
+  font-size: 20px; /* Font size for this piece for the submit text */
+  background-color: blue; /* Colour of the submit button seen within the quiz */
+  color: #fff; /* Colour of the submit button seen within the quiz */
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#submit:hover{
+  background-color: #3a8; /* Colour of the submit button seen when hovering */
+}
+
+footer{
+  text-align: center; /* Aligns the footer to the center of the page */
+  font-size: 10px; /* Font size of the footer */
+  font-weight: bolder; /* Font weight of the footer- chose bolder as it draws attention etc */
+}

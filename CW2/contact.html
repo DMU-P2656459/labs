@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="CSS\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  </head>
+  <body>
+
+  <img src="Image\guitaruniverselogo.png" class="guitarlogo"> <!-- Website logo and title -->
+
+  <img src="Image\Social icons.png" class="socialmedia"> <!-- Image of social media icons in order to present professionalism and follow the conventions of a webpage -->
+
+  <br>
+
+  <div class="topnav"> <!-- Div class for the menu section. This allows for editing within CSS -->
+      <a href="home.html">Home</a> <!-- Home page menu button -->
+      <a href="history.html">Notable Guitarists</a> <!-- History page menu button -->
+      <a href="news.html">Latest News</a> <!-- News page menu button -->
+      <a href="contact.html">Contact</a> <!-- Contact page menu button -->
+  </div>
+
+  <div id="overlay">
+      <form onsubmit="event.preventDefault(); validateForm()">
+
+        <h1>Contact Us</h1> <!-- Heading for the contact page -->
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name">
+        <small class="error"></small>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Your email">
+        <small class="error"></small>
+
+        <br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your message" rows="6"></textarea>
+        <small class="error"></small>
+
+        <br>
+
+      <div class="center">
+          <input type="submit" value="Send Message"
+          <p id="success"></p>
+        </div>
+
+    </form>
+</div>
+
+<script src="JS\script.js"></script> <!-- Script linking this page to Javascript allowing for external JS coding -->
+
+<footer>
+  <a href="https://www.musicradar.com/news/guitars">To find out more about the world of guitars click here!</a> <!-- Footer with link to external guitar website -->
+</footer>
+
+  </body>
+</html>
